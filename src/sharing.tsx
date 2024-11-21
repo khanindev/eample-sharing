@@ -1,4 +1,4 @@
-import { FC, useCallback, useEffect, useState } from "react";
+import { FC, useEffect, useState } from "react";
 
 const fetchBlob = async (src: string) => {
   const response = await fetch(src);
